@@ -7,17 +7,19 @@
 
 - The pom.xml file defines project details (groupId, artifactId, version), dependencies, build plugins, and execution configurations.
 
-### Compile and Package: 
+
+### Compile and Package
 ```
   mvn clean package
 ```
 - Compiles the project and packages it into a JAR file in the target/ directory.
 
+
 ### Run Application
 ```
   mvn exec:java -Dexec.mainClass="com.example.App"
 ```
-- Executes the main class (App.java) using the exec-maven-plugin.
+- 
 
 
 
