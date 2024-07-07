@@ -1,4 +1,4 @@
-package com.spring-learning;
+package com.springlearning;
 
 /**
  * Hello world!
