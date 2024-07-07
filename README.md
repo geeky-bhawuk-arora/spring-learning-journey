@@ -1,14 +1,13 @@
 # Spring Learning Journey 🌱
 
-## [Installing & Configuring a Maven Project for Spring](https://medium.com/@xjfreddie/creating-a-maven-project-in-vscode-1f7de148ee55)
+## [Installing & Configuring a Maven Project for Spring](https://medium.com/@xjfreddie/creating-a-maven-project-in-vscode-1f7de148ee55) 
+
+- Assure that Maven is installed and its path is correctly set in your system environment variables.
 
 
 ## Notes
 
-
-
-
-### Structure of pom.xml
+### Structure of pom.xml 
 - The pom.xml file defines project details (groupId, artifactId, version), dependencies, build plugins, and execution configurations.
 ```
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -36,7 +35,7 @@
   
   <build>
     <plugins>
-      <!-- Plugins section -->
+      <!-- Plugins Section -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
@@ -47,7 +46,7 @@
               <goal>java</goal>
             </goals>
             <configuration>
-              <mainClass>com.example.App</mainClass>
+              <mainClass>com.springlearning.App</mainClass>
               <!-- Additional configurations can be added here -->
             </configuration>
           </execution>
@@ -58,6 +57,13 @@
 
 </project>
 ```
+
+📦 <packaging>: Specifies the packaging type as JAR.
+📚 <dependencies>: Lists project dependencies.
+🛠️ <build>: Configures Maven build process.
+⚙️ <plugins>: Specifies Maven plugins used.
+▶️ <goal>: Indicates the task (java in this case) to execute.
+🚀 <mainClass>: Specifies the main class for execution.
 
 
 ### Compile and Package 📦
