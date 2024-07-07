@@ -58,12 +58,12 @@
 </project>
 ```
 
-📦 packaging: Specifies the packaging type as JAR.
-📚 dependencies: Lists project dependencies.
-🛠️ build: Configures Maven build process.
-⚙️ plugins: Specifies Maven plugins used.
-▶️ goal: Indicates the task (java in this case) to execute.
-🚀 mainClass: Specifies the main class for execution.
+-- 📦 packaging: Specifies the packaging type as JAR.
+-- 📚 dependencies: Lists project dependencies.
+-- 🛠️ build: Configures Maven build process.
+-- ⚙️ plugins: Specifies Maven plugins used.
+-- ▶️ goal: Indicates the task (java in this case) to execute.
+-- 🚀 mainClass: Specifies the main class for execution.
 
 
 ### Compile and Package 📦
