@@ -24,7 +24,7 @@
   <url>http://maven.apache.org</url>
 
   <dependencies>
-    <!-- Dependencies section -->
+    <!-- Dependencies Section -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -47,7 +47,7 @@
             </goals>
             <configuration>
               <mainClass>com.springlearning.App</mainClass>
-              <!-- Additional configurations can be added here -->
+              <!-- Additional Configurations -->
             </configuration>
           </execution>
         </executions>
@@ -75,6 +75,6 @@
 
 ### Run Application ▶️
 ```
-  mvn exec:java -Dexec.mainClass="com.springlearning.App
+  mvn exec:java -Dexec.mainClass="com.springlearning.App"
 ```
 - Executes the main class (App.java) using the exec-maven-plugin.

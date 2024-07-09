@@ -12,18 +12,25 @@
   <url>http://maven.apache.org</url>
 
   <dependencies>
-    <!-- Dependencies section -->
+    <!-- Dependencies Section -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>6.1.9</version>
+    </dependency>
+
+    </dependencies>
   
   <build>
     <plugins>
-      <!-- Plugins section -->
+      <!-- Plugins Section -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
@@ -35,7 +42,7 @@
             </goals>
             <configuration>
               <mainClass>com.springlearning.App</mainClass>
-              <!-- Additional configurations can be added here -->
+              <!-- Additional Configurations  -->
             </configuration>
           </execution>
         </executions>
