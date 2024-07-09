@@ -1,12 +1,12 @@
 package com.springlearning;
 
-public class Laptop implements Computer {
-    public Laptop() {
+public class Desktop implements Computer {
+    public Desktop() {
         System.out.println("Laptop Object Created");
     }
 
     @Override
     public void compile(){
-        System.out.println("Laptop Compiling");
+        System.out.println("Desktop Compiling");
     }
 }
