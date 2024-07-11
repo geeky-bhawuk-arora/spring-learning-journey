@@ -2,7 +2,7 @@ package com.springlearning;
 
 public class Desktop implements Computer {
     public Desktop() {
-        System.out.println("Laptop Object Created");
+        System.out.println("Desktop Object Created");
     }
 
     @Override
