@@ -1,5 +1,8 @@
 package com.springlearning;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Alien {
     private int age;
     // private Laptop lap = new Laptop();
@@ -9,7 +12,6 @@ public class Alien {
         System.out.println("Alien Object Created");
     }
 
-    @ConstructorProperties({ "age", "lap" })
     public Alien(int age, Laptop Lap) {
         System.out.println("Alien Para Constructor Called");
         this.age = age;
