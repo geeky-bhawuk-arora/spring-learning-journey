@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class HelloServlet extends HttpServlet {
-    public void service(HttpServletRequest req, HttpServletResponse res) {
+    public void doGet(HttpServletRequest req, HttpServletResponse res) {
         System.out.println("In Sevice");
 
         res.setContentType("text/html");
