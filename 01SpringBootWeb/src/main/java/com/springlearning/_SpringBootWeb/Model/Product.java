@@ -2,8 +2,14 @@ package com.springlearning._SpringBootWeb.Model;
 
 import org.springframework.stereotype.Component;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 @Component
+@Entity
 public class Product {
+    
+    @Id
     private int prodId;
     private String prodName;
     private int price;
@@ -22,7 +28,7 @@ public class Product {
         return prodId;
     }
 
-    public String getName() {
+    public String getProdName() {
         return prodName;
     }
 
