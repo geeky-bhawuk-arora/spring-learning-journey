@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springlearning</groupId>
-	<artifactId>01SpringBootWeb</artifactId>
+	<artifactId>03SpringBootWeb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>01SpringBootWeb</name>
 	<description>Spring Boot Web</description>
