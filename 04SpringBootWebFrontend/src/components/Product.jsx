@@ -20,6 +20,10 @@ const [product, setProduct] = useState(null);
     fetchProduct();
   }, [id]);
 
+
+
+
+
   if (!product) {
     return (
       <h2 className="text-center" style={{ padding: "10rem" }}>

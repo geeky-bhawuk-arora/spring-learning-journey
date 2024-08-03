@@ -25,6 +25,7 @@ public class ProductController {
         return service.getProducts();
      }
 
+//    @CrossOrigin(origins = "http://localhost:5173")
     @GetMapping("/products/{id}")
     public Product getProductById(@PathVariable int id) {
         return service.productById(id);
